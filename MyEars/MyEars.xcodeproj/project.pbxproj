@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FC313A1736EAB6CA9EC4C52 /* Pods_MyEars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B6FE1A92FA3F0110F543F1C /* Pods_MyEars.framework */; };
+		3FB9045E1C0951F5009B532D /* TopPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FB9045D1C0951F5009B532D /* TopPlist.plist */; };
+		3FB9049A1C099D3B009B532D /* bodyTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB904941C099D3B009B532D /* bodyTableView.m */; };
+		3FB9049B1C099D3B009B532D /* TOPCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB904971C099D3B009B532D /* TOPCollectionViewCell.m */; };
+		3FB9049C1C099D3B009B532D /* TopUICollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB904991C099D3B009B532D /* TopUICollectionView.m */; };
+		3FB904A11C09A23E009B532D /* BodyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9049F1C09A23E009B532D /* BodyTableViewCell.m */; };
+		3FB904A41C09A40C009B532D /* BodyPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FB904A31C09A40C009B532D /* BodyPlist.plist */; };
+		3FCF97911C0943DE001BB072 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCF97901C0943DE001BB072 /* main.m */; };
+		3FCF97941C0943DF001BB072 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCF97931C0943DF001BB072 /* AppDelegate.m */; };
+		3FCF979C1C0943DF001BB072 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FCF979B1C0943DF001BB072 /* Assets.xcassets */; };
+		3FCF979F1C0943DF001BB072 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCF979D1C0943DF001BB072 /* LaunchScreen.storyboard */; };
+		3FCF97BE1C09446A001BB072 /* UIButton+LKS.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCF97A91C09446A001BB072 /* UIButton+LKS.m */; };
+		3FCF97BF1C09446A001BB072 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCF97AB1C09446A001BB072 /* UIView+Extension.m */; };
+		3FCF97C01C09446A001BB072 /* IndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCF97AE1C09446A001BB072 /* IndexViewController.m */; };
+		3FCF97C11C09446A001BB072 /* TopModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCF97B01C09446A001BB072 /* TopModel.m */; };
+		3FCF97CB1C0946D4001BB072 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCF97CA1C0946D4001BB072 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B6FE1A92FA3F0110F543F1C /* Pods_MyEars.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyEars.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FB9045D1C0951F5009B532D /* TopPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TopPlist.plist; sourceTree = "<group>"; };
+		3FB904931C099D3B009B532D /* bodyTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bodyTableView.h; sourceTree = "<group>"; };
+		3FB904941C099D3B009B532D /* bodyTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bodyTableView.m; sourceTree = "<group>"; };
+		3FB904961C099D3B009B532D /* TOPCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOPCollectionViewCell.h; sourceTree = "<group>"; };
+		3FB904971C099D3B009B532D /* TOPCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOPCollectionViewCell.m; sourceTree = "<group>"; };
+		3FB904981C099D3B009B532D /* TopUICollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopUICollectionView.h; sourceTree = "<group>"; };
+		3FB904991C099D3B009B532D /* TopUICollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopUICollectionView.m; sourceTree = "<group>"; };
+		3FB9049E1C09A23E009B532D /* BodyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BodyTableViewCell.h; sourceTree = "<group>"; };
+		3FB9049F1C09A23E009B532D /* BodyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BodyTableViewCell.m; sourceTree = "<group>"; };
+		3FB904A31C09A40C009B532D /* BodyPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BodyPlist.plist; sourceTree = "<group>"; };
+		3FCF978C1C0943DE001BB072 /* MyEars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyEars.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FCF97901C0943DE001BB072 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3FCF97921C0943DE001BB072 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3FCF97931C0943DF001BB072 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3FCF979B1C0943DF001BB072 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FCF979E1C0943DF001BB072 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FCF97A01C0943DF001BB072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FCF97A81C09446A001BB072 /* UIButton+LKS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+LKS.h"; sourceTree = "<group>"; };
+		3FCF97A91C09446A001BB072 /* UIButton+LKS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LKS.m"; sourceTree = "<group>"; };
+		3FCF97AA1C09446A001BB072 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		3FCF97AB1C09446A001BB072 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		3FCF97AD1C09446A001BB072 /* IndexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexViewController.h; sourceTree = "<group>"; };
+		3FCF97AE1C09446A001BB072 /* IndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexViewController.m; sourceTree = "<group>"; };
+		3FCF97AF1C09446A001BB072 /* TopModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopModel.h; sourceTree = "<group>"; };
+		3FCF97B01C09446A001BB072 /* TopModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopModel.m; sourceTree = "<group>"; };
+		3FCF97BC1C09446A001BB072 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		3FCF97C91C0946D4001BB072 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3FCF97CA1C0946D4001BB072 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C540AA4BB7EBB160DB760E93 /* Pods-MyEars.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyEars.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyEars/Pods-MyEars.debug.xcconfig"; sourceTree = "<group>"; };
+		F143035E5D3E6449CCC69AD5 /* Pods-MyEars.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyEars.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyEars/Pods-MyEars.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FCF97891C0943DE001BB072 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC313A1736EAB6CA9EC4C52 /* Pods_MyEars.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1544E6663A97C08B25422704 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C540AA4BB7EBB160DB760E93 /* Pods-MyEars.debug.xcconfig */,
+				F143035E5D3E6449CCC69AD5 /* Pods-MyEars.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3FB904921C099D3B009B532D /* BODY */ = {
+			isa = PBXGroup;
+			children = (
+				3FB904931C099D3B009B532D /* bodyTableView.h */,
+				3FB904941C099D3B009B532D /* bodyTableView.m */,
+				3FB9049E1C09A23E009B532D /* BodyTableViewCell.h */,
+				3FB9049F1C09A23E009B532D /* BodyTableViewCell.m */,
+			);
+			path = BODY;
+			sourceTree = "<group>";
+		};
+		3FB904951C099D3B009B532D /* TOP */ = {
+			isa = PBXGroup;
+			children = (
+				3FB904961C099D3B009B532D /* TOPCollectionViewCell.h */,
+				3FB904971C099D3B009B532D /* TOPCollectionViewCell.m */,
+				3FB904981C099D3B009B532D /* TopUICollectionView.h */,
+				3FB904991C099D3B009B532D /* TopUICollectionView.m */,
+			);
+			path = TOP;
+			sourceTree = "<group>";
+		};
+		3FB9049D1C099D5F009B532D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3FCF97AF1C09446A001BB072 /* TopModel.h */,
+				3FCF97B01C09446A001BB072 /* TopModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3FCF97831C0943DE001BB072 = {
+			isa = PBXGroup;
+			children = (
+				3FCF978E1C0943DE001BB072 /* MyEars */,
+				3FCF978D1C0943DE001BB072 /* Products */,
+				1544E6663A97C08B25422704 /* Pods */,
+				C430C4A937442B8F1033CC7B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3FCF978D1C0943DE001BB072 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FCF978C1C0943DE001BB072 /* MyEars.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FCF978E1C0943DE001BB072 /* MyEars */ = {
+			isa = PBXGroup;
+			children = (
+				3FCF97921C0943DE001BB072 /* AppDelegate.h */,
+				3FCF97931C0943DF001BB072 /* AppDelegate.m */,
+				3FCF97B81C09446A001BB072 /* Main */,
+				3FCF97AC1C09446A001BB072 /* IndexPage */,
+				3FCF97A61C09446A001BB072 /* Discover */,
+				3FCF97BB1C09446A001BB072 /* Mine */,
+				3FCF97A71C09446A001BB072 /* Extension */,
+				3FCF97BC1C09446A001BB072 /* PrefixHeader.pch */,
+				3FCF97BD1C09446A001BB072 /* Ranking */,
+				3FCF979B1C0943DF001BB072 /* Assets.xcassets */,
+				3FCF979D1C0943DF001BB072 /* LaunchScreen.storyboard */,
+				3FCF97A01C0943DF001BB072 /* Info.plist */,
+				3FCF978F1C0943DE001BB072 /* Supporting Files */,
+			);
+			path = MyEars;
+			sourceTree = "<group>";
+		};
+		3FCF978F1C0943DE001BB072 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FB9045D1C0951F5009B532D /* TopPlist.plist */,
+				3FB904A31C09A40C009B532D /* BodyPlist.plist */,
+				3FCF97901C0943DE001BB072 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3FCF97A61C09446A001BB072 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		3FCF97A71C09446A001BB072 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3FCF97A81C09446A001BB072 /* UIButton+LKS.h */,
+				3FCF97A91C09446A001BB072 /* UIButton+LKS.m */,
+				3FCF97AA1C09446A001BB072 /* UIView+Extension.h */,
+				3FCF97AB1C09446A001BB072 /* UIView+Extension.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		3FCF97AC1C09446A001BB072 /* IndexPage */ = {
+			isa = PBXGroup;
+			children = (
+				3FB9049D1C099D5F009B532D /* Model */,
+				3FCF97B11C09446A001BB072 /* View */,
+				3FCF97AD1C09446A001BB072 /* IndexViewController.h */,
+				3FCF97AE1C09446A001BB072 /* IndexViewController.m */,
+			);
+			path = IndexPage;
+			sourceTree = "<group>";
+		};
+		3FCF97B11C09446A001BB072 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3FB904951C099D3B009B532D /* TOP */,
+				3FB904921C099D3B009B532D /* BODY */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3FCF97B81C09446A001BB072 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3FCF97C91C0946D4001BB072 /* ViewController.h */,
+				3FCF97CA1C0946D4001BB072 /* ViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3FCF97BB1C09446A001BB072 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		3FCF97BD1C09446A001BB072 /* Ranking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Ranking;
+			sourceTree = "<group>";
+		};
+		C430C4A937442B8F1033CC7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B6FE1A92FA3F0110F543F1C /* Pods_MyEars.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FCF978B1C0943DE001BB072 /* MyEars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FCF97A31C0943DF001BB072 /* Build configuration list for PBXNativeTarget "MyEars" */;
+			buildPhases = (
+				40C9820CCB9CB041C41866B9 /* Check Pods Manifest.lock */,
+				3FCF97881C0943DE001BB072 /* Sources */,
+				3FCF97891C0943DE001BB072 /* Frameworks */,
+				3FCF978A1C0943DE001BB072 /* Resources */,
+				EDE64F99744A2FD668530D4C /* Embed Pods Frameworks */,
+				6126F03E2628BA9F97DD916E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyEars;
+			productName = MyEars;
+			productReference = 3FCF978C1C0943DE001BB072 /* MyEars.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FCF97841C0943DE001BB072 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = hanya;
+				TargetAttributes = {
+					3FCF978B1C0943DE001BB072 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = QBRL28PHYN;
+					};
+				};
+			};
+			buildConfigurationList = 3FCF97871C0943DE001BB072 /* Build configuration list for PBXProject "MyEars" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FCF97831C0943DE001BB072;
+			productRefGroup = 3FCF978D1C0943DE001BB072 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FCF978B1C0943DE001BB072 /* MyEars */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FCF978A1C0943DE001BB072 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCF979F1C0943DF001BB072 /* LaunchScreen.storyboard in Resources */,
+				3FB9045E1C0951F5009B532D /* TopPlist.plist in Resources */,
+				3FCF979C1C0943DF001BB072 /* Assets.xcassets in Resources */,
+				3FB904A41C09A40C009B532D /* BodyPlist.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40C9820CCB9CB041C41866B9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6126F03E2628BA9F97DD916E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyEars/Pods-MyEars-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDE64F99744A2FD668530D4C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyEars/Pods-MyEars-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FCF97881C0943DE001BB072 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB904A11C09A23E009B532D /* BodyTableViewCell.m in Sources */,
+				3FCF97BE1C09446A001BB072 /* UIButton+LKS.m in Sources */,
+				3FCF97C11C09446A001BB072 /* TopModel.m in Sources */,
+				3FB9049C1C099D3B009B532D /* TopUICollectionView.m in Sources */,
+				3FCF97941C0943DF001BB072 /* AppDelegate.m in Sources */,
+				3FB9049A1C099D3B009B532D /* bodyTableView.m in Sources */,
+				3FCF97BF1C09446A001BB072 /* UIView+Extension.m in Sources */,
+				3FCF97CB1C0946D4001BB072 /* ViewController.m in Sources */,
+				3FCF97911C0943DE001BB072 /* main.m in Sources */,
+				3FB9049B1C099D3B009B532D /* TOPCollectionViewCell.m in Sources */,
+				3FCF97C01C09446A001BB072 /* IndexViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3FCF979D1C0943DF001BB072 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FCF979E1C0943DF001BB072 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FCF97A11C0943DF001BB072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3FCF97A21C0943DF001BB072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FCF97A41C0943DF001BB072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C540AA4BB7EBB160DB760E93 /* Pods-MyEars.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MyEars/PrefixHeader.pch";
+				INFOPLIST_FILE = MyEars/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "han-ya.MyEars";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FCF97A51C0943DF001BB072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F143035E5D3E6449CCC69AD5 /* Pods-MyEars.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MyEars/PrefixHeader.pch";
+				INFOPLIST_FILE = MyEars/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "han-ya.MyEars";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FCF97871C0943DE001BB072 /* Build configuration list for PBXProject "MyEars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FCF97A11C0943DF001BB072 /* Debug */,
+				3FCF97A21C0943DF001BB072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FCF97A31C0943DF001BB072 /* Build configuration list for PBXNativeTarget "MyEars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FCF97A41C0943DF001BB072 /* Debug */,
+				3FCF97A51C0943DF001BB072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FCF97841C0943DE001BB072 /* Project object */;
+}

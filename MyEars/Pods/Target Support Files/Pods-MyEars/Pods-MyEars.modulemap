@@ -1,0 +1,6 @@
+framework module Pods_MyEars {
+  umbrella header "Pods-MyEars-umbrella.h"
+
+  export *
+  module * { export * }
+}

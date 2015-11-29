@@ -1,0 +1,19 @@
+//
+//  PrefixHeader.pch
+//  MyEars
+//
+//  Created by hanya on 15/11/28.
+//  Copyright © 2015年 hanya. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#define kTOPItemMargin 20 
+#define kScreen       [UIScreen mainScreen].bounds
+#define kScreenW       [UIScreen mainScreen].bounds.size.width
+#define kScreenH       [UIScreen mainScreen].bounds.size.height
+
+
+#endif /* PrefixHeader_pch */
